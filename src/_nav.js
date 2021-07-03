@@ -19,20 +19,6 @@ const _nav = [
     anchor: 'Theme',
   },
   {
-    _component: 'CNavItem',
-    as: NavLink,
-    anchor: 'Colors',
-    to: '/theme/colors',
-    icon: <CIcon name="cil-drop" customClasses="nav-icon" />,
-  },
-  {
-    _component: 'CNavItem',
-    as: NavLink,
-    anchor: 'Typography',
-    to: '/theme/typography',
-    icon: <CIcon name="cil-pencil" customClasses="nav-icon" />,
-  },
-  {
     _component: 'CNavTitle',
     anchor: 'Components',
   },
